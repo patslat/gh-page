@@ -1,0 +1,13 @@
+markdown: rdiscount
+pygments: true
+permalink: /posts/:title
+auto: true
+rdiscount:
+  extensions: [smart]
+gravatar: 123
+url: http://localhost:4000
+ga: 
+twitter: patslat4
+title: Patrick Slattery
+subtitle: derp
+author: Patrick Slattery
