@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link href="{{ site.url }}/stylesheets/main.css" rel="stylesheet"</link>
+  <link href="{{ site.url }}/stylesheets/bootstrap.css" rel="stylesheet"</link>
+  <link href="{{ site.url }}/stylesheets/colors.css" rel="stylesheet"</link>
+
+  <link rel="shortcut icon" href="{{site.url}}img/favicon.ico"</link>
+
+  <script type="text/javascript" src="{{ site.url }}javascripts/main.js"></script>
+</head>
+<body class="bg-gray">
+  <div id="header">
+    <div id="me">
+      <span>
+        <a href="/">
+          <img src="http://www.gravatar.com/avatar/{{ site.gravatar }}?s=130"
+               height="130"
+               width="130"
+               class="avatar">
+        </a>
+      </span>
+      <span>
+        <a href="/">
+          <span id="Patrick">{{ site.title }}</span>
+          <span id="Slattery">{{ site.subtitle }}</span>
+        </a>
+      </span>
+    </div>
+    <div id="mousing"> &nbsp;</div>
+    <div class="site">
+      <a id="github" href="https//github.com/patslat"></a>
+      <a id="twitter" href="https//twitter.com/patslat4"></a>
+    </div>
+
+    <div id="sections">
+      <a href="{{ site.url }}/about.html">About</a>
+    </div>
+  <div id="main">
+    {{content}}
+  </div>
+</body>
+</html>
