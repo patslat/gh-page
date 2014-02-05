@@ -1,3 +1,26 @@
 body {
-  background-color: pink;
+}
+
+#pic {
+  height: 130px;
+  width: 130px;
+}
+
+#patrick {
+  font-size: 3em;
+}
+#divider {
+  font-size: 3em;
+}
+#subtitle {
+  font-size: 3em;
+}
+
+#header {
+}
+
+#sidebar {
+}
+
+#main {
 }
