@@ -1,26 +1,35 @@
 body {
+  text-align: center;
+  height: 100%;
 }
 
 #pic {
   height: 130px;
   width: 130px;
 }
+#title {
+  height: 100%;
+}
 
 #patrick {
-  font-size: 3em;
-}
-#divider {
-  font-size: 3em;
-}
-#subtitle {
-  font-size: 3em;
+  font-size: 2.5em;
+  min-height: 100%;
 }
 
 #header {
-}
-
-#sidebar {
+  width: 80%;
 }
 
 #main {
 }
+
+#sidebar {
+  height: 100%;
+  margin-top: -50px;
+  width: 10%;
+}
+
+#footer {
+  height: 10%;
+}
+
